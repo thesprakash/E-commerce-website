@@ -1,0 +1,53 @@
+.wishlist {
+    margin: 30px auto;
+    width: 90%;
+    background-color: rgb(244, 234, 205);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.wishlist__name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+.wishlist__allinfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.wishlist__image {
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.wishlist__name__price {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    width: 25%;
+
+}
+
+.wishlist__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.wishlist__move__button {
+    height: 40px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+
+}
